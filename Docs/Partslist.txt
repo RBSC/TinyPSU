@@ -1,0 +1,35 @@
+Partlist
+
+Part     Value          Device          Package        Library         Sheet
+----------------------------------------------------------------------------
+C1       47uF 16V       CPOL-EUSANYO_C6 SANYO-OSCON_C6 rcl             1
+C2       1uF 50V        CPOL-EUSANYO_C6 SANYO-OSCON_C6 rcl             1
+C3       1uF 50V        CPOL-EUSANYO_C6 SANYO-OSCON_C6 rcl             1
+C4       220uF 16V      CPOL-EUSANYO_E7 SANYO-OSCON_E7 rcl             1
+C5       22uF 16v       CPOL-EUSANYO_C6 SANYO-OSCON_C6 rcl             1
+C6       10uF 16v       CPOL-EUSANYO_C6 SANYO-OSCON_C6 rcl             1
+C7       4.7uF 16v      CPOL-EUSANYO_C6 SANYO-OSCON_C6 rcl             1
+C8       22uF 16v       CPOL-EUSANYO_C6 SANYO-OSCON_C6 rcl             1
+C9       220uF 16V      CPOL-EUSANYO_E7 SANYO-OSCON_E7 rcl             1
+C10      100nF          C-EUC0805       C0805          rcl             1
+C11      100nF          C-EUC0805       C0805          rcl             1
+C12      100nF          C-EUC0805       C0805          rcl             1
+C13      100nF          C-EUC0805       C0805          rcl             1
+C14      100nF          C-EUC0805       C0805          rcl             1
+C15      220uF 16V      CPOL-EUSANYO_E7 SANYO-OSCON_E7 rcl             1
+D1       1N5819         DIODE-DO204-10  DO204-10       diode           1
+D2       SA5.0CA        DIODE-DO204-10  DO204-10       diode           1
+DC1      VA-1212S       VA-1212S        4SIL           dc-dc-converter 1
+F1       3A             PICOFUSE        PICOFUSE       fuse            1
+IC1      XL6007E1       XL6007E1-SOIC   SOIC08         XL6007E1        1
+IC2      ST1S10         ST1S10-SOIC     SOIC08         ST1S10          1
+L1       33uH           L0204/7         0204/7         eagle-ltspice   1
+L2       3.3uH          L0204/7         0204/7         eagle-ltspice   1
+R1       8.2k           R-EU_0204/7     0204/7         resistor        1
+R2       1k             R-EU_0204/7     0204/7         resistor        1
+R3       5.6k           R-EU_0204/7     0204/7         resistor        1
+R4       1k             R-EU_0204/7     0204/7         resistor        1
+VIN1                    JP2E_SP         JP2            wire_clamp      1
+VOUT1                   JP2E_SP         JP2            wire_clamp      1
+VOUT2                   JP2E_SP         JP2            wire_clamp      1
+VOUT3                   JP2E_SP         JP2            wire_clamp      1
