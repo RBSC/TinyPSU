@@ -7,54 +7,57 @@ Last updated: 13.07.2025
 About
 -----
 
-This project was created by Wierzbowsky [RBSC] and Ptero [RBSC] in order to bring back to life a batch of MSX2 computers,
-mostly Panasonic FS-A1. Those computers were lacking original power supply units that made them unusable. It's a known fact
-that original power supplies for those computers are hard to come by and even if one is lucky to find one for sale, the
-price literally bites. Japanese sellers may easily ask for 70$ for such a power supply. Overseas shipment, local and import
-taxes can easily bring the total cost of the power supply to 100$. But that's not the only problem.
+The TinyPSU project was created by RBSC to bring back to life a batch of MSX2 computers, mostly Panasonic FS-A1. Those
+computers were lacking original power supply units that made them pretty much unusable. It's a known fact that original
+power supplies for those computers are hard to find and even if one is lucky to find one for sale, the price literally
+bites. Japanese sellers may easily ask for 70$ for such a power supply. Overseas shipment, local and import taxes can
+easily bring the total cost of an original power supply to 100$. But that's not the only problem.
 
 The second problem is that these MSX2 computers have the special 3-pin power socket that was not used in many other MSX
-computers. So, reusing power supplies from other MSX computers was not an option. However, similar sockets were used in
-some old laptops, so it possible to find an old laptop power supply in order to utilize its cable to build a custom power
-supply for Panasonic FS-A1 or FS-A1 MK2 computers.
+computers. So, reusing power supplies from other MSX computers was never an option. However, similar sockets were used in
+some old PC laptops, so it was possible to find an old laptop's power supply in order to utilize its cable to build a
+custom power supply for Panasonic FS-A1 or FS-A1 MK2 computers. The TinyPSU project solves this and many other problems.
 
-But the usage of this power supply is not only limited to Panasonic FS-A1 and similar computers. Technically, this power
-supply can be used in any MSX computer that requires 3 different voltages: +5V, +12V and -12V. This repository contains the
-holder for the Tiny PSU that could be used with Yamaha YIS 503II, 503III, CX5M, CX11 and similar MSX and MSX2 computers.
-There's no need to even modify the motherboard in order to fit this power supply into those computers.
+But the application of this power supply is not only limited to Panasonic FS-A1 and similar MSX computers. Technically,
+this power supply can be used with any MSX computer that requires 3 different voltages: +5V, +12V and -12V. For example,
+this repository contains a holder for the TinyPSU that could be used with Yamaha YIS 503II, 503III, YIS-604, CX5M, CX11
+and similar MSX and MSX2 computers. There's no need to even modify the motherboard in order to fit this power supply into
+those computers. Moreover, after installation of this power supply the problem of incompatible mains voltage (100V or 220V)
+is also resolved thanks to the universal low-voltage external power supply. Who knows what comes next? Maybe a USB-C option
+to power your MSX?
 
 There's the special document-guide in the Docs subfolder of this repository that provides precise instructions on how to
-build the Tiny PSU in. Please carefully read the "FS-A1_FS-A1MK2_PSU_Guide.pdf" document before doing any repair!
+build the TinyPSU in. Please carefully read the "FS-A1_FS-A1MK2_PSU_Guide.pdf" document before doing any repair!
 
 
 Building in the PSU
 -------------------
 
-For certain computers, for example for Yamaha MSX YIS-503 and similar computers, the installation of the Tiny PSU is almost
+For certain computers, for example for Yamaha MSX YIS-503 and similar computers, the installation of the TinyPSU is almost
 trivial. The PSU needs to be fitted with the power connector similar to the original one (or even the original connector can
-be used instead). The installation of the Tiny PSU into Panasonic FS-A1 and FS-A1MK2 computers is a totally different thing.
-To make space for the Tiny PSU certain components must be removed from the mainboard and some additional modifications must
+be used instead). The installation of the TinyPSU into Panasonic FS-A1 and FS-A1MK2 computers is a totally different thing.
+To make space for the TinyPSU certain components must be removed from the mainboard and some additional modifications must
 be made to complete the PSU replacement. See the specially created guide document to help you during the installation.
 
 Before starting the repair or upgrade please make sure that you have sufficient skills and all necessary tools. For example,
 desoldering components from old circuit boards must be done with extreme caution in order not to damage the main circuit
-board. Proper soldering skills are needed to correctly connect the Tiny PSU to the mainboard. In addition, you may need
+board. Proper soldering skills are needed to correctly connect the TinyPSU to the mainboard. In addition, you may need
 crimping tools, connector shells, crimps and cable insulation stripping tools. If you feel that you don't have enough skills
 and tools, leave the work to better equipped people.
 
-As mentioned above, there's a possibility to built the Tiny PSU into almost any MSX computer. But every computer may have
+As mentioned above, there's a possibility to built the TinyPSU into almost any MSX computer. But every computer may have
 its differences, so the installation into each computer or into a family of computers (like Yamaha YIS 503) may require
-a different approach. The available 3D models of Tiny PSU's holders could be adjusted to be used in other computer models.
+a different approach. The available 3D models of TinyPSU's holders could be adjusted to be used in other computer models.
 If in doubt, seek a piece of advice on MSX.ORG and other forums about vintage electonics.
 
-Where else to find 3D models of Tiny PSU's holders:
+Where else to find 3D models of TinyPSU's holders:
 
  - For Panasonic: https://www.thingiverse.com/thing:6987948
  - For Yamaha: https://www.thingiverse.com/thing:6847546
 
 
-Tiny PSU Assembling Notes
--------------------------
+TinyPSU Assembling Notes
+------------------------
 
 Please read the following notes carefully:
 
@@ -63,7 +66,7 @@ Please read the following notes carefully:
    power supply
 
  - Use only the recommended external 9V or 12V power supply. Other PSUs, especially cheap ones from AliExpress may result
-   in a malfunction of the Tiny PSU and/or introduce interference into the audio and video signals of a computer. See the
+   in a malfunction of the TinyPSU and/or introduce interference into the audio and video signals of a computer. See the
    installation guide document for the info about the recommened external power supply
 
  - Use only recommended voltage ratings for electrolytic capacitors. Incorrect voltage rating may result in blown or leaked
@@ -75,7 +78,7 @@ Please read the following notes carefully:
  - Use only the recommended coil types and coil values. Incorrect coil type or its value may result in severe pulsation
    on the power rails that may prevent a computer from operating properly
 
- - When selecting wires for connecting the Tiny PSU to the mainboard, please make sure that they can hold up to 2A current,
+ - When selecting wires for connecting the TinyPSU to the mainboard, please make sure that they can hold up to 2A current,
    otherwise your computer may be starving for power if too thin or low quality wires are used
 
  - The ST1S10 step-down voltage regulator IC may get hot during its operation. The lead frame die pad of the ST1S10 is
@@ -93,8 +96,8 @@ Please read the following notes carefully:
    DC-DC converter that is installed to produce -12V for the MSX power rail
 
  - Though the circuit board is designed to dissipate the heat from active elements, it's not recommended to install the
-   Tiny PSU in poorly ventilated tight spaces, as well as near other sources of heat. The step-down converter may heat up
-   to 60 degrees Celsius, the -12V DC-DC converter may heat up slightly more. During the testing phase the Tiny PSU was
+   TinyPSU in poorly ventilated tight spaces, as well as near other sources of heat. The step-down converter may heat up
+   to 60 degrees Celsius, the -12V DC-DC converter may heat up slightly more. During the testing phase the TinyPSU was
    tested for many hours with the maxumum allowed load with constant temperature monitoring and no excessive heating has
    been observed
 
